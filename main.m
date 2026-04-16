@@ -330,8 +330,8 @@ hold off;
 
 fprintf('\n===== Monte Carlo for Fig 3 =====\n');
 
-M_vals = [2, 4, 6, 8];     % You can extend this
-num_MC = 5;                % Increase for smoother average
+M_vals = [4, 6, 8, 10, 12, 14, 16, 18];    
+num_MC = 5;                
 
 avg_sec_proposed = zeros(length(M_vals),1);
 avg_sec_straight = zeros(length(M_vals),1);

@@ -370,7 +370,7 @@ for mi = 1:length(M_vals)
     fprintf(' done\n');
 end
 
-%% Plot (CLEAN AVERAGE PLOT)
+%% Plot 
 figure;
 plot(M_vals, avg_sec_proposed, 'b-o', 'LineWidth',2,'MarkerSize',8); hold on;
 plot(M_vals, avg_sec_straight, 'r-^', 'LineWidth',2,'MarkerSize',8);

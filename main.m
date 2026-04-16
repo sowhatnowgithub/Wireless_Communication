@@ -364,7 +364,6 @@ for mi = 1:length(M_vals)
         fprintf('.');
     end
 
-    % ✅ AVERAGE (THIS IS THE KEY CHANGE)
     avg_sec_proposed(mi) = mean(sec_vals_prop);
     avg_sec_straight(mi) = mean(sec_vals_str);
 
